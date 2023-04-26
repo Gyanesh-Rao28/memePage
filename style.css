@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Nunito:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-color: #FFDCB6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+img {
+    border: 2px solid #ECC9EE;
+}
+
+.container {
+    border: 2px solid none;
+    background-color: #9384D1;
+    border-radius: 60px;
+    height: 90%;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px 0px #243763;
+}
+
+#btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ECC9EE;
+    overflow: hidden;
+    color: #243763;
+    box-shadow: 3px 4px 3px 0px #243763;
+    transition: 0.8s;
+}
+#btn:hover{
+    font-size: 18px;
+}
